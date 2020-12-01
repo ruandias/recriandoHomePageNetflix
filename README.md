@@ -28,7 +28,7 @@ O objetivo aqui é desenvolver a Home Page do Netflix, utilizando HTML5 e CSS3, 
 git clone ou baixar esse repositório.
 Para visualizar o site no ar, acesse:
 
-<a href="https://github.com/ruandias/recriandoHomePageNetflix//">My Netflix Home Page Clone</a>
+<a href="https://ruandias.github.io/recriandoHomePageNetflix/">My Netflix Home Page Clone</a>
 
 <h2 id="technologies">🚀 Tecnologias</h2>
 
