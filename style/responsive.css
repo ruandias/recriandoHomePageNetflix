@@ -5,8 +5,38 @@
   }
 
   .botao {
-    margin-top: 5px;
-    width: 300px;
+    width: 1em;
+    margin-bottom: 5em;
+  }
+
+  .botao span {
+    display: none;
+  }
+}
+
+@media screen and (min-width:1000px) {
+  .descricao {
+    width: 50%;
+  }
+}
+
+
+@media screen and (max-width:320px){
+  *{
+    font-size: 11px;
+  }
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .botao {
+    width: 1em;
+    margin-bottom: 6em;
+  }
+
+  .botao span {
+    display: none;
   }
 }
 
