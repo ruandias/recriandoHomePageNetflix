@@ -37,11 +37,11 @@
           em casa e na escola.
         </p>
         <div class="botoes">
-          <button role="button" class="botao">
+          <button role="button" class="botao" id="abrirModalAssistir">
             <i class="fas fa-play"></i>
             ASSISTIR AGORA
           </button>
-          <button role="button" class="botao" id="abrirModal">
+          <button role="button" class="botao" id="abrirModalInfo">
             <i class="fas fa-info-circle"></i>
             MAIS INFORMAÇÕES
           </button>
@@ -86,12 +86,24 @@
 
   <div class="modal-container" id="modal-informacoes">
     <div class="modal">
-      <button href="#" class="botao fechar" id="fecharModal">X</button>
+      <button href="#" class="botao fechar" id="fecharModalInfo">X</button>
       <div class="modal-conteudo">
         <p>Rick and morty é uma série de animação, aventura e comédia.</p>
         <p>Cada episódio tem em média 23 minutos!</p>       
         <form action="https://www.imdb.com/title/tt2861424/" method="get" target="_blank">
           <button class="botao">Todos os detalhes aqui!</button>
+       </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-container" id="modal-assistir">
+    <div class="modal">
+      <button href="#" class="botao fechar" id="fecharModalAssistir">X</button>
+      <div class="modal-conteudo">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7ecYoSvGO60?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>     
+        <form action="https://youtu.be/7ecYoSvGO60" method="get" target="_blank">
+          <button class="botao">Ver no youtube</button>
        </form>
       </div>
     </div>
