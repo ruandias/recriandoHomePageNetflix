@@ -44,3 +44,5 @@ O projeto foi desenvolvido em:
 https://www.w3schools.com/html/
 
 https://developer.mozilla.org/pt-BR/docs/Web/CSS
+
+https://www.w3schools.com/tags/ref_pxtoemconversion.asp
