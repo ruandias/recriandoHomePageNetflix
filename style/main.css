@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
 }
 
 .container {
-  margin-left: 1%;
+  margin-left: 1em;
 }
 
 header .container {
@@ -27,16 +28,15 @@ header .container {
 }
 
 header .logo {
-  margin-left: 5px;
   color: var(--vermelho);
   font-family: 'Arial Black', Times;
-  font-size: 40px;
+  font-size: 3em;
 }
 
 header nav a {
   text-decoration: none;
   color: #AAA;
-  margin-right: 10px;
+  margin-right: 1em;
 }
 
 header nav a:hover {
@@ -45,9 +45,8 @@ header nav a:hover {
 
 /* filme principal */
 .filme-principal{
-  font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/capa-rick-morty.jpg');
-  height: 400px;
+  height: 25em;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -55,13 +54,13 @@ header nav a:hover {
   align-items: flex-start;
 }
 .filme-principal .descricao {
-  margin-top: 10px;
-  margin-bottom: 40px;
+  margin-top: 0.625em;
+  margin-bottom: 2.5em;
 }
 
 .filme-principal .titulo {
-  margin-top: 15%;
-  font-size: 40px;
+  margin-top: 1em;
+  font-size: 2.5em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -70,9 +69,9 @@ header nav a:hover {
   border: none;
   color: #fff;
 
-  padding: 15px 30px;
-  margin-right: 15px;
-  font-size: 12px;
+  padding: 0.9375em 1.875em;
+  margin-right: 0.9375em;
+  font-size:  0.75em;
 
   cursor: pointer;
   transition: 0.5s ease all;
@@ -83,7 +82,7 @@ header nav a:hover {
 }
 
 .botao i {
-  margin-right: 8px;
+  margin-right: 1em;
 }
 
 .filme-principal .container {
@@ -97,7 +96,7 @@ header nav a:hover {
 }
 
 .carrossel-filmes {
-  margin-top: 5px;
+  margin-top: 0.3125em;
 }
 
 
@@ -121,10 +120,10 @@ header nav a:hover {
 
 .modal {
   width: 60%;
-  min-width: 300px;
-  padding: 40px;
-  border: 10px solid var(--vermelho);
-  box-shadow: 0 0 0 10px var(--preta);
+  min-width: 17.5em;
+  padding: 2.5em;
+  border: 0.625em solid var(--vermelho);
+  box-shadow: 0 0 0 0.625em var(--preta);
   position: relative;
   background-color: var(--preta);
 }
@@ -132,7 +131,7 @@ header nav a:hover {
 @keyframes modal {
   from {
     opacity: 0;
-    transform: translate3d(0, -60px, 0);
+    transform: translate3d(0, -4em, 0);
   }
   to {
     opacity: 1;
@@ -149,7 +148,7 @@ header nav a:hover {
   font-size: 1.2em;
   top: 0px;
   right: -15px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.25em 0.25em 0 rgba(0, 0, 0, 0.3);
 }
 
 .modal-conteudo {
@@ -158,6 +157,6 @@ header nav a:hover {
 }
 
 .modal-conteudo button {
-  margin-top: 10px;
+  margin-top: 0.625em;
   font-size: 1.2em;
 }
