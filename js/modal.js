@@ -6,13 +6,11 @@ function iniciaModal(modalId) {
   if (modalId == "modal-assistir") {
     botaoFechar = "fecharModalAssistir";
   }
-  console.log(botaoFechar);
 
   let modal = document.getElementById(modalId);
   modal.classList.add('mostrar');
 
   modal.addEventListener('click', function (evento) {
-    console.log(evento);
     if (evento.target.id == modalId || evento.target.id == botaoFechar) {
 
       if (modalId == "modal-assistir") {
