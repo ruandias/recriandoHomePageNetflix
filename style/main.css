@@ -126,6 +126,7 @@ header nav a:hover {
   border: 10px solid var(--vermelho);
   box-shadow: 0 0 0 10px var(--preta);
   position: relative;
+  background-color: var(--preta);
 }
 
 @keyframes modal {
@@ -147,8 +148,16 @@ header nav a:hover {
   position: absolute;
   font-size: 1.2em;
   top: 0px;
-  right: 0px;
-  width: 50px;
-  height: 50px;
+  right: -15px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.modal-conteudo {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.modal-conteudo button {
+  margin-top: 10px;
+  font-size: 1.2em;
 }
